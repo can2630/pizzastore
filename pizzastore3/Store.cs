@@ -5,9 +5,9 @@ namespace pizzastore3
     {
         public void Start()
         {
-            Pizza p1 = new Pizza("salatpizza:",50,"topping: kebab");
-            Pizza p2 = new Pizza("hawaipizza:",65, "topping: skinke og ananas");
-            Pizza p3 = new Pizza("kyllingpizza:",70,"topping: løg og peberfrugt");
+            Pizza p1 = new Pizza("salatpizza,",50,"topping: kebab");
+            Pizza p2 = new Pizza("hawaipizza,",65, "topping: skinke og ananas");
+            Pizza p3 = new Pizza("kyllingpizza,",70,"topping: løg og peberfrugt");
             
             Customer c1 = new Customer(25,"Ole","ole@gmail.com",22335632);
             Customer c2 = new Customer(112,"Jens","jens@gmail.com",44235643);
